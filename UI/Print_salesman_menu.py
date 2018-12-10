@@ -1,5 +1,6 @@
 import os
 
+
 class Print_salesman_menu(object):
     def __init__(self):
         pass
@@ -57,4 +58,17 @@ class Print_salesman_menu(object):
 
     def car_lists(self, plate, info):
         print("{}: {}".format(plate,info))
+
+    def get_new_pw(self):
+        new_pw = input("Enter new password: ")
+        return new_pw
+        
+
+
+    # def get_orders(self):
+    #     orders_repo = Orders_repo()
+    #     orders_dict = orders_repo.get_orders()
+    #     for plate_num, orders in orders_dict.items():
+    #         for order in orders:
+    #             order.get_
 

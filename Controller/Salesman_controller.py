@@ -33,6 +33,7 @@ class Salesman_controller(object):
             self.__rent_car.Rent_page()
         # Search for order
         elif self.__option == "2":
+            #self.__get_info.get_orders()
             pass
         # Get customer information
         elif self.__option == "3":
@@ -40,7 +41,7 @@ class Salesman_controller(object):
             cust_val_list = self.__get_info.get_customer(self.email)
             cust_val_string = self.__get_info.make_cust_value_string(cust_val_list)
             self.__salesman.customer_list(cust_val_string)
-            input("")
+            # Matti setja inn "p" option
         # Get cars information
         elif self.__option == "4":
             self.__info_choice = self.__salesman.cars_info_menu()
@@ -50,6 +51,8 @@ class Salesman_controller(object):
         elif self.__option == "5":
             pass
         elif self.__option == "6":
-            pass
+            new_pw = self.__salesman.get_new_pw()
+            self.__get_info.change_pw(new_pw)
+            input("")
         elif self.__option == "7":
             pass

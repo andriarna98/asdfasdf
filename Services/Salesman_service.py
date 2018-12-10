@@ -41,9 +41,18 @@ class Salesman_service(object):
         salesman_dict = self.salesman_info.get_salesmen()
         for key, value in salesman_dict.items():
             if key == ID and pw == value.get_password():
+                self.logged_salesman = key
                 valid = True
                 return valid
-
         return valid
+
+    def change_pw(self, new_pw):
+        salesman_dict = self.salesman_info.get_salesmen()
+        for key, value in salesman_dict.items():
+            if key == self.logged_salesman:
+                value.change_pw(new_pw)
+                break
+        self.salesman_info.update_data(salesman_dict)
+        
 
         
