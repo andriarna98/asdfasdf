@@ -25,10 +25,10 @@ Tabulate - Install with git. Command: ```"pip install tabulate"```
 ## Authors
 
 * **Andri Árnason** - *Cs. Student* 
-* **Birgir Steinn Ellingsen** - *Cs. Failure*
-* **Davíð Fannar Ragnarsson** - *Cs. GOD*
-* **Friðrik Snær Ómarsson** - *Cs. Amateur*
-* **Matthías Finnur Vignisson** - *Cs. Senpai*
+* **Birgir Steinn Ellingsen** - *Cs. Student*
+* **Davíð Fannar Ragnarsson** - *Cs. Student*
+* **Friðrik Snær Ómarsson** - *Cs. Student*
+* **Matthías Finnur Vignisson** - *Cs. Student*
 
 
 ## Acknowledgments
