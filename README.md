@@ -10,16 +10,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
+
 tqdm - Module for progress bar 
-Tabulate - Module used for formatting in this project
-```
+Tabulate - Module used for formatting text in this project
+
 
 ### Installing
 
-tqdm - Download and instructions: https://pypi.org/project/tqdm/
+tqdm - Download and instructions: ```https://pypi.org/project/tqdm/```
 
-Tabulate - Install with git. Command: "pip install tabulate"
+Tabulate - Install with git. Command: ```"pip install tabulate"```
 
 ## Authors
 
