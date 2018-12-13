@@ -4,7 +4,8 @@ Happy Wheels is a car rental service made by computer science students in Reykja
 
 ## How to Start
 
-These instructions will get you a copy of the project up and running on your local machine for testing.
+Download or pull the repository on to your local computer, and install the required modules listed below.
+Run the main.py file with python
 
 ### Prerequisites
 
@@ -31,8 +32,6 @@ Tabulate - Install with git. Command: ```"pip install tabulate"```
 
 
 ## Acknowledgments
-
-* Stackoverflow
 * Björgin Birkir Björgvinsson - Course Instructor
 * Egill Anton Hlöðversson - Instructor
 
