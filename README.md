@@ -13,6 +13,7 @@ What things you need to install the software and how to install them
 
 
 tqdm - Module for progress bar 
+
 Tabulate - Module used for formatting text in this project
 
 
